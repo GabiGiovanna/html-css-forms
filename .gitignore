@@ -1,0 +1,10 @@
+# SO
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Build/preview temporários
+dist/
