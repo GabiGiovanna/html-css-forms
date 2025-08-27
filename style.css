@@ -3,65 +3,179 @@
   border: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-body{
-width: 100%;
-
+body {
+  width: 100%;
 }
 
-#container{
-   display: flex;
-height: 100vh;
-justify-content: center;
-align-items: center;
-margin: 0 auto;
+#container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
-.right{
-flex: 1;
-display: flex;
-flex-direction: column;
-padding: 0 30px;
-background-color: #0056FB;
-align-items: center;
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+  min-height: 100vh;
+  background-color: #0056fb;
+  align-items: center;
+  justify-content: center;
 }
 
-.left{
-flex: 1;
-align-items: center;
-justify-items: center;
+.left {
+  flex: 1;
+  align-items: center;
+  justify-items: center;
 }
 
-.left h1{
-font-size:40px;
-width: 100%;
-max-width: 450px;
-margin-bottom: 20px;
+.left h1 {
+  font-size: 40px;
+  width: 100%;
+  max-width: 455px;
+  margin-bottom: 20px;
 }
 
-form{
-position: relative ;
-display: flex;
-flex-direction: column;
-width: 100%;
-max-width: 450px;
+form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
 }
 
 .input {
-padding: 10px;
-width: 32vw;
-margin-top: 15px;
-border:solid 1px #000000;
-border-radius: 4px;
+  padding: 12px;
+  width: 30vw;
+  margin-top: 15px;
+  border: solid 1px #000000;
+  border-radius: 4px;
+   width: 100%;
+  max-width: 460px;
 }
 
-input::placeholder{
+input::placeholder {
+  font-size: 15px;
+  color: #000000;
+}
+
+#termos {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 460px;
+  display: flex;
+  justify-items: center;
+  gap:10px
+}
+
+#termos input{
+
+  width: 18px;
+  height: 18px;
+
+}
+
+#btnCriar {
+  width: 100%;
+ max-width: 455px;
+  justify-content: center;
+  background-color: #0056fb;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 4px;
+  color: aliceblue;
+  margin-bottom: 15px;
+  
+}
+
+#btnCriar:hover{
+   background-color: #ffffff;
+   border:solid 1px #0056fb;
+   color:#0056fb;
+  cursor: pointer;
+}
+
+
+section h2{
+  width: 100%;
+  max-width: 465px;
+  font-size: 15px;
+}
+
+section a{
 font-size: 15px;
-color: #000000;
+text-decoration: none;
+color: rgb(0, 0, 0);
+font-weight: 100;
+
 }
 
-#termos{
-margin-top:5%
+section a:hover{
+text-decoration: underline;
+}
+
+.right h2{
+  font-size: 40px;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 25px;
+    margin-top: 25px;
+color: white;
+letter-spacing:4px;
+}
+
+.right p{
+  font-size: 15x;
+  width: 100%;
+  max-width: 500px;
+color: white;
+letter-spacing:4px;
+}
+
+#btnAcessar {
+  width: 100%;
+ max-width: 455px;
+  justify-content: center;
+  background-color: #0056fb;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 4px;
+  color: aliceblue;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  
+}
+
+#btnAcessar:hover{
+   background-color: #ffffff;
+   border:solid 1px #0056fb;
+   color:#0056fb;
+  cursor: pointer;
+}
+
+@media (max-width:1096px){
+#container{
+  flex-direction: column;
+ height: 190vh;
+align-items:normal;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 18px;
+}
+
+.imgInfo{
+  width: 100%;          
+}
+
 }

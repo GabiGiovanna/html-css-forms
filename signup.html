@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,8 +13,38 @@
       rel="stylesheet"
     />
 
-    <title>Login</title>
+    <title>Cadastro - GabiGio</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+
+  <body>
+    <!-- Container principal -->
+    <main id="container">
+      <section class="left">
+        <h1>Nova Conta</h1>
+        <form>
+          <input type="text" class="input" placeholder="Nome Completo" />
+          <input type="email" class="input" placeholder="Digite seu email" />
+          <input type="password" class="input" placeholder="Digite sua senha" />
+          <div id="termos">
+            <input type="checkbox" name="termos" id="checkbox" />
+            <span>Concordo com os termos.</span>
+          </div>
+
+          <button type="submit" id="btnCriar">Criar Conta</button>
+        </form>
+        <h2>Já possui uma conta?  <a href="/index.html"> Faça Login.</a></h2>
+      </section>
+
+      <section class="right">
+        <img src="assets/info.png" alt="Informações" class="imgInfo" />
+        <h2 class="subtitulo">Leve sua carreira ao próximo nível.</h2>
+        <p class="descricao">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          faucibus dui sed augue efficitur aliquam. Mauris efficitur maximus
+          vehicula.
+        </p>
+      </section>
+    </main>
+  </body>
 </html>
