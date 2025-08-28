@@ -15,14 +15,16 @@ Projeto do curso para relembrar **HTML + CSS puros** (sem frameworks). Duas tela
 
 ## 🗂️ Estrutura
 
+```text
 HTML-CSS-FORMS/
 ├─ assets/
-│ ├─ code.svg
-│ └─ info.png
+│  ├─ code.svg
+│  └─ info.png
 ├─ .gitignore
 ├─ index.html
 ├─ signup.html
 ├─ style.css
 ├─ LICENSE
 └─ README.md
+
  
