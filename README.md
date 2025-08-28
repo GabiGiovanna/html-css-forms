@@ -11,7 +11,6 @@ Projeto do curso para relembrar **HTML + CSS puros** (sem frameworks). Duas tela
 
 - HTML5 semântico
 - CSS3 (Flexbox/Grid, Mobile-first)
-- Acessibilidade básica (labels, contrastes, foco) ♿
 
 ## 🗂️ Estrutura
 
