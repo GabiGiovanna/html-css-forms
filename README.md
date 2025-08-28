@@ -2,13 +2,6 @@
 
 Projeto do curso para relembrar **HTML + CSS puros** (sem frameworks). Duas telas responsivas: **Login** e **Cadastro**. 🎨📱
 
-<!-- ## 🖼️ Preview
-
-Coloque prints em `assets/img/` e referencie aqui:
-![Preview Desktop](assets/img/preview-desktop.png)
-![Preview Mobile](assets/img/preview-mobile.png)
- -->
-
 ## 🧩 Páginas
 
 - `index.html` — Login
@@ -21,3 +14,13 @@ Coloque prints em `assets/img/` e referencie aqui:
 - Acessibilidade básica (labels, contrastes, foco) ♿
 
 ## 🗂️ Estrutura
+
+html-css-forms/
+├─ assets
+├─ .gitignore
+├─ index.html
+├─ signup.html
+├─ style.css
+├─ LICENSE
+└─ README.md
+ 
